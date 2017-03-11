@@ -64,13 +64,4 @@ server '192.69.208.220', user: 'deploy', roles: %w{web app db}
 #     auth_methods: %w(publickey password)
 #     # password: "please use keys"
 #   }
-config.action_mailer.delivery_method = :smtp
-  config.action_mailer.smtp_settings = {
-      :address              => "smtp.gmail.com",
-      :port                 => 587,
-      :domain               => 'shetabyad.com',
-      :user_name            => 'shetabyad@gmail.com',
-      :password             => ':password',
-      :authentication       => :plain,
-      :enable_starttls_auto => true  
-  }
+
