@@ -37,6 +37,13 @@ gem 'twitter-bootstrap-rails'
 gem 'devise-bootstrap-views'
 gem 'rb-readline'
 
+group :development do
+  gem 'capistrano', '~> 3.8'
+  gem 'capistrano-rails', '~> 1.2', '>= 1.2.3'
+  gem 'capistrano-rbenv', '~> 2.1'
+end
+
+
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
